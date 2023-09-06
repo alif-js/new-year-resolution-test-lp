@@ -91,7 +91,7 @@
 }
 .plans h2{
     font-weight: bold;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     margin-bottom: 60px;
 }
@@ -117,20 +117,20 @@
 /* cta-section */
 
 .cta-section{
-    background-image: url(images/gradient2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(images/gradient2.png), url(images/watch.png);
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover, cover;
     width: 80%;
-    margin: 0 10% 0 10%;
+    margin: 0 10% 130px 10%;
     height: auto;
     border-radius: 15px;
 }
 .cta-section-content{
-    padding: 50px 0 50px 70px;
+    padding: 70px 0 70px 70px;
 }
 .cta-section-content h3{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 35px;
     color: white;
 }
 .cta-button{
@@ -147,4 +147,27 @@
     background-color: #ffc000;
     color: white;
     cursor: pointer;
+}
+
+/* footer section */
+
+footer{
+    background-color: black;
+    height: auto;
+    width: 100%;
+    color: white;
+    margin-bottom: 0;
+}
+.footer-content{
+    width: 40%;
+    height: auto;
+    padding: 50px 0 50px 50px;
+}
+.footer-content h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer-icons img{
+    padding-right: 10px;
 }
