@@ -26,7 +26,7 @@
     height: 600px;
 }
 .header-content{
-    padding: 150px 250px 150px 0;
+    padding: 150px 230px 150px 0;
     text-align: right;
 }
 .main-title{
@@ -37,3 +37,51 @@
     /* width: 30%; */
     font-size: 18px;
 }
+
+/* failure section */
+
+.failures{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.failure-image{
+    max-height: 750px;
+    max-width: 550px;
+    margin-left: 200px;
+
+}
+.failure-image img{
+    width: 100%;
+    height: auto;
+}
+.failure-content{
+    /* vertical-align: middle; */
+    margin: 200px 300px 0 100px;
+    height: auto;
+    width: 30%;
+}
+.failure-content h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+.failure-paragraph{
+    margin-bottom: 20px;
+}
+.margin-test{
+    margin-bottom: 30px;
+}
+.failure-list{
+    /* list-style-image: url(images/icons/web.png); */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.failure-list img{
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+
+/* my plans section */
+
